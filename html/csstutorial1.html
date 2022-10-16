@@ -9,9 +9,15 @@
         <!-- css give more priorty  to inline css  
         ....... exertnal sheet not take priroty but up coming lines take actionfirst  -->
         
-<link rel="stylesheet" href="hcs1.css" >
+<link rel="stylesheet" href="../css/hcs1.css" >
+    <!--
+        href="hcs1.css" was the previous declaration, here the filename is stated as it is without a path
+        which means that the html will look for the file in the currently directory html which is not where
+        the file is present. The file is present is a different directory named css. So we need to specify
+        the path to the file. The path is specified by using ../ which means go back one directory and then
+        go to the directory as stated. The path is specified as ../css/hcs1.css 
+    -->
         
-
     <!-- <style>
         p{
             color:rgb(226, 230, 7);
